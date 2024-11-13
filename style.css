@@ -31,24 +31,6 @@ a:active{
 li {
     list-style: none;
 }
-/* hgroup h1 a{
-    color:#730D30;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-hgroup h2{
-    color:white;
-    font-size: 0.9rem;
-    opacity: 0.7;
-    
-}
-
-#global ul{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-} */
 
 header{
     margin-top: 20px;
