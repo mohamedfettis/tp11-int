@@ -7,13 +7,13 @@
 </head>
 
 <body>
-<header>
+<header class="principale-header">
 	<hgroup>
 		<h1><a href='#'>Blog fictif</a></h1>
 		<h2>Un blog pour apprendre HTML5 et CSS3</h2>
 	</hgroup>
 	<nav id='global'>
-		<ul>
+		<ul id="principale">
 			<li><a href='#'>Accueil</a></li>
 			<li><a href='#'>A propos</a></li>
 			<li>
@@ -31,53 +31,53 @@
 </header>
 
 <div>
-	<div>
+	<div id="content">
 		<article>
 			<header>
-				<div>
-					<div>2018</div>
-					<div>16<span>oct</span></div>
+				<div class="date">
+					<div class="annee">2018</div>
+					<div class=" jouretmois">16<span>oct</span></div>
 				</div>
 				<h1>Un exemple de Post 1</h1>
-				<div>38</div>
+				<div class="combien" >38</div>
 			</header>
 			<p>Curabitur ut congue hac, diam turpis maecenas id vestibulum nulla nisl, libero leo, ut scelerisque maecenas id, ornare magna orci. In blandit sed et sagittis non, ullamcorper nec metus felis vel, vestibulum a in sit. Leo non odio fermentum lectus cubilia, mauris aliquam nunc eu neque ac sollicitudin. Tincidunt nisl morbi nulla rutrum, adipisicing tellus integer nunc massa id quis. Cursus sagittis massa ac sociis interdum, sem cursus, enim aptent sit, semper mauris, quam urna sed quis vivamus&hellip;</p>
 			<footer>
 				<em>Ecrit par:</em> <strong>Nom de l'auteur</strong>
-				<span class="display-block"><em>Tags:</em> <a href='#'>cool</a><a href='#'>modern</a><a href='#'>amical</a></span>
-				<a href='#'>Lire la suite</a>
+				<span><em>Tags:</em> <a href='#'>cool</a><a href='#'>modern</a><a href='#'>amical</a></span>
+				<a class="suite" href='#'>Lire la suite</a>
 			</footer>
 		</article>
 		<article>
 			<header>
-				<div>
-					<div>2018</div>
-					<div>29<span>mar</span></div>
+				<div class="date">
+					<div class="annee">2018</div>
+					<div class=" jouretmois">29<span>mar</span></div>
 				</div>
 				<h1>Un exemple de Post 2</h1>
-				<div>4</div>
+				<div class="combien">4</div>
 			</header>
 			<p>Curabitur ut congue hac, diam turpis maecenas id vestibulum nulla nisl, libero leo, ut scelerisque maecenas id, ornare magna orci. In blandit sed et sagittis non, ullamcorper nec metus felis vel, vestibulum a in sit. Leo non odio fermentum lectus cubilia, mauris aliquam nunc eu neque ac sollicitudin. Tincidunt nisl morbi nulla rutrum, adipisicing tellus integer nunc massa id quis. Cursus sagittis massa ac sociis interdum, sem cursus, enim aptent sit, semper mauris, quam urna sed quis vivamus&hellip;</p>
 			<footer>
 				<em>Ecrit par:</em> <strong>Nom de l'auteur</strong>
 				<span><em>Tags:</em> <a href='#'>cool</a><a href='#'>modern</a><a href='#'>amical</a></span>
-				<a href='#'>Lire la suite</a>
+				<a  class="suite" href='#'>Lire la suite</a>
 			</footer>
 		</article>
 		<article>
 			<header>
-				<div>
-					<div>2018</div>
-					<div>4<span>feb</span></div>
+				<div class="date">
+					<div class="annee">2018</div>
+					<div class=" jouretmois">4<span>feb</span></div>
 				</div>
 				<h1>Un exemple de Post 3</h1>
-				<div>258</div>
+				<div class="combien">258</div>
 			</header>
 			<p>Curabitur ut congue hac, diam turpis maecenas id vestibulum nulla nisl, libero leo, ut scelerisque maecenas id, ornare magna orci. In blandit sed et sagittis non, ullamcorper nec metus felis vel, vestibulum a in sit. Leo non odio fermentum lectus cubilia, mauris aliquam nunc eu neque ac sollicitudin. Tincidunt nisl morbi nulla rutrum, adipisicing tellus integer nunc massa id quis. Cursus sagittis massa ac sociis interdum, sem cursus, enim aptent sit, semper mauris, quam urna sed quis vivamus&hellip;</p>
 			<footer>
 				<em>Ecrit par:</em> <strong>Nom de l'auteur</strong>
 				<span><em>Tags:</em> <a href='#'>cool</a><a href='#'>modern</a><a href='#'>amical</a></span>
-				<a href='#'>Lire la suite</a>
+				<a class="suite" href='#'>Lire la suite</a>
 			</footer>
 		</article>
 	</div>
@@ -86,8 +86,8 @@
 		<section>
 			<h1>Réseaux sociaux</h1>
 			<ul>
-				<li><span>12345</span> <a href='#'>Twitter</a></li>
-				<li><span>4321</span> <a href='#'>RSS feed</a></li>
+				<li><span class="twitter">12345</span> <a href='#'>Twitter</a></li>
+				<li><span class="rss">4321</span> <a href='#'>RSS feed</a></li>
 			</ul>
 		</section>
 		
@@ -101,9 +101,9 @@
 			</ul>
 		</nav>
 		
-		<section>
+		<section id="lastSection">
 			<blockquote>Dans le monde, il y a 10 types de personnes, celles qui comprennent le binaire et les autres.</blockquote>
-			<a href='#'>@Illustreinconnu</a>
+			<a class="twitt" href='#'>@Illustreinconnu</a>
 		</section>
 	</aside>
 </div>
